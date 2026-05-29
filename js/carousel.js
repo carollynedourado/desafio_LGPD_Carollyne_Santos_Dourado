@@ -43,31 +43,3 @@ class Carousel {
         }
     }
 }
-            
-            // const mudarItem = () => {
-            //     const itemAtual = arr[index];
-
-    //             if (divCarousel && divTitle) {
-    //                 divCarousel.style.backgroundImage = `url(${itemAtual.image})`;
-    //                 divTitle.innerHTML = `<a href="${itemAtual.url}">${itemAtual.title}</a>`;
-    //             }
-
-    //             index++;
-
-    //             if (index >= arr.length) {
-    //                 index = 0;
-    //             }
-    //         };
-
-    //         mudarItem();
-    //         setInterval(mudarItem, 2000);
-
-    //     } else {
-    //         console.error("O array de imagens está vazio ou não foi definido.");
-    //     }
-    // }
-
-    // static Next(){
-        
-    // }
-    // };

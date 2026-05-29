@@ -64,7 +64,6 @@ function UpdateCompareTable() {
     for(let i = 0; i < carArr.length; i++){
         let car = carArr[i];
         
-        // Injeta os dados nos IDs que existem no seu lancamento.html
         document.getElementById(`compare_image_${i}`).innerHTML = `<img src="${car.image}" width="150">`;
         document.getElementById(`compare_modelo_${i}`).innerText = car.modelo;
         document.getElementById(`compare_alturacacamba_${i}`).innerText = car.altCacamba;

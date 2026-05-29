@@ -32,7 +32,7 @@
             <div>
                 <h2 class="titulo">Sobre Você</h2>
             <form onsubmit="event.preventDefault(); Post(this);">
-                <input type="text" name="nome" placeholder="NOME*" class="fordform" autocomplete="given-name" required>
+                <input type="text" name="nome" id="nomeid" placeholder="NOME*" class="fordform" autocomplete="given-name" required>
                 <input type="text" name="sobrenome" placeholder="SOBRENOME*" class="fordform" autocomplete="family-name" required>
                 <input type="text" name="cpf" placeholder="CPF*" class="fordform" required>
                 <input type="text" name="email" placeholder="E-MAIL*" class="fordform" autocomplete="email" required>
@@ -43,12 +43,13 @@
                     <option>E-MAIL</option>
                     <option>TELEFONE</option>
                 </select>
+
                 <p class="LGPD">Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A
                 qualquer momento, será possível editar ou remover tais dados. <a href='https://www.ford.com.br/politica-de-privacidade/'>Termos e Condições.</a></p>
                 <p class="LGPD"><input type="checkbox" id="aceite-termos">Sim. Li e concordo com os Termos e Condições.</p>
                 <p class="LGPD"><input type="checkbox">Sim. Também quero receber descontos e novidades.</p>
                 
-            <button type="submit" id="btn-enviar" disabled>Enviar</button>
+            <button type="submit" disabled>Enviar</button>
             </form>
             </div>
         </div>
